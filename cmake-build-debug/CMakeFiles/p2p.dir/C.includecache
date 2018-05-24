@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marian/p2p/p2p.c
+stdlib.h
+-
+stdio.h
+-
+pthread.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+stdint.h
+-
+strings.h
+-
+netdb.h
+-
+

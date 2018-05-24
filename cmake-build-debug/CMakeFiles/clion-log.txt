@@ -1,0 +1,4 @@
+/opt/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/gcc -G "CodeBlocks - Unix Makefiles" /home/marian/p2p
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marian/p2p/cmake-build-debug
