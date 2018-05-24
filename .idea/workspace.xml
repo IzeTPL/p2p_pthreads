@@ -11,7 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34a4389e-c2cc-4a8e-ba19-55f847b37530" name="Default" comment="" />
+    <list default="true" id="34a4389e-c2cc-4a8e-ba19-55f847b37530" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p" beforeDir="false" afterPath="$PROJECT_DIR$/p2p" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p.c" beforeDir="false" afterPath="$PROJECT_DIR$/p2p.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p.o" beforeDir="false" afterPath="$PROJECT_DIR$/p2p.o" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +31,8 @@
       <file leaf-file-name="p2p.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/p2p.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="162" column="70" lean-forward="true" selection-start-line="162" selection-start-column="70" selection-end-line="162" selection-end-column="70" />
+            <state relative-caret-position="374">
+              <caret line="220" column="21" lean-forward="true" selection-start-line="220" selection-start-column="21" selection-end-line="220" selection-end-column="21" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -62,6 +67,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -85,6 +93,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1017" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -140,12 +149,13 @@
       <updated>1527113897538</updated>
       <workItem from="1527113899972" duration="4788000" />
       <workItem from="1527142148767" duration="13360000" />
-      <workItem from="1527155581789" duration="1666000" />
+      <workItem from="1527155581789" duration="2804000" />
+      <workItem from="1527158462076" duration="1100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19814000" />
+    <option name="totallyTimeSpent" value="22052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1017" extended-state="0" />
@@ -155,10 +165,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.49947312" weight="0.1949891" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.1949891" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4997367" visible="true" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4997367" visible="true" weight="0.3293348" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -178,6 +188,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/p2p.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/p2p.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3179">
@@ -235,8 +269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/p2p.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="162" column="70" lean-forward="true" selection-start-line="162" selection-start-column="70" selection-end-line="162" selection-end-column="70" />
+        <state relative-caret-position="374">
+          <caret line="220" column="21" lean-forward="true" selection-start-line="220" selection-start-column="21" selection-end-line="220" selection-end-column="21" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
