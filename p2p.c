@@ -70,6 +70,7 @@ void *client(void *arg) {
         client_socket = socket(AF_INET, SOCK_STREAM, 0);
 
         if (client_socket < 0) printf("Client ERROR opening socket\n");
+        
         else {
 
             //printf("Client opening socket\n");
@@ -88,8 +89,11 @@ void *client(void *arg) {
 
             }
 
-            if (connect(client_socket, (struct sockaddr *) &server_address, sizeof(server_address)) < 0)
+            if (connect(client_socket, (struct sockaddr *) &server_address, sizeof(server_address)) < 0) {
+				
                 printf("Client ERROR connecting\n");
+                
+			} else {
 
             status = read(client_socket, &poem_line_number, sizeof(int32_t));
             printf("Client got line number %d, from %s\n", poem_line_number, ip);
@@ -128,6 +132,8 @@ void *client(void *arg) {
         sleep(1);
 
     }
+    
+}
 
     printf("Klient stop\n");
 
